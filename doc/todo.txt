@@ -1,0 +1,12 @@
+API AUTHENTIFICATION :      
+
+API CRUDS :
+
+CLIENT REACT.JS :
+- delete product
+- creat product
+
+DOCKERISE LE PROJET :
+..
+NGINX LE PROJET :
+..

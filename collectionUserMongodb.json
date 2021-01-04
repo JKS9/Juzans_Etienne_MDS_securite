@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "5f8edd5d932399198f8e5569"
+  },
+  "name": "john",
+  "email": "etienne.juzans@gmail.com",
+  "password": "password123admin"
+},{
+  "_id": {
+    "$oid": "5f8edd91932399198f8e556a"
+  },
+  "name": "anna",
+  "email": "etienne.juzans@gmail.com",
+  "password": "password123member"
+}]

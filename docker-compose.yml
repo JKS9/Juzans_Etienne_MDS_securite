@@ -1,0 +1,42 @@
+version: "3"
+services:
+    apiAuth:
+        container_name: api_authentification
+        restart: always
+        build:
+            context: .
+            dockerfile: ./api_authentification/Dockerfile
+        ports:
+            - "8080:8080"
+        links:
+            - mongodb
+    apiCruds:
+        container_name: api_cruds
+        restart: always
+        build:
+            context: .
+            dockerfile: ./api_cruds/Dockerfile
+        ports:
+            - "8090:8090"
+        links:
+            - mongodb
+    frontend: 
+        container_name: react-jwt-auth
+        restart: always
+        build:
+            context: .
+            dockerfile: ./react-jwt-auth/Dockerfile
+        ports:
+            - "8081:8081"
+        links:
+            - apiAuth
+            - apiCruds
+    mongodb:
+        container_name: mongo
+        image: mongo
+        restart: always
+        container_name: mongodb
+        volumes:
+            - ./data-node:/data/db
+        ports:
+            - 27018:27017

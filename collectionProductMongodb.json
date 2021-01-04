@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5f983a53d374c2c1db100c31"
+  },
+  "picture": "images/defaul.png",
+  "name_product": "chaussure",
+  "description_product": "chaussure noir",
+  "price": 34,
+  "id_autor": "5f8edd5d932399198f8e5569"
+},{
+  "_id": {
+    "$oid": "5f983a5cd374c2c1db100c32"
+  },
+  "picture": "images/defaul.png",
+  "name_product": "chaussette",
+  "description_product": "chaussette noir",
+  "price": 34,
+  "id_autor": "5f8edd5d932399198f8e5569"
+},{
+  "_id": {
+    "$oid": "5f983a71d374c2c1db100c33"
+  },
+  "picture": "images/defaul.png",
+  "name_product": "livre S-F",
+  "description_product": "livre de science fiction",
+  "price": 34,
+  "id_autor": "5f8edd5d932399198f8e5569"
+}]
